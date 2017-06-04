@@ -1,0 +1,27 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "friends",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erod8705/FriendFinder.git"
+  },
+  "keywords": [
+    "friends"
+  ],
+  "author": "Erica R.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erod8705/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/erod8705/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
