@@ -7,6 +7,8 @@ var app = express();
 var bodyParser = require('body-parser');
 //requiring PATH
 var path = require('path');
+//requiring the friends.js file
+var friends = require('friends');
 //setting up our port
 var PORT = process.env.PORT || 8080
 
