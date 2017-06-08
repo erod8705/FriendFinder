@@ -1,7 +1,7 @@
 // TODO
 // You'll need to require your data file in here
 var path = require('path');
-var friendsArray = require('friendsArray');
+var friendsArray = require('../data/friends.js');
 
 // Add app.get statements for html files
 module.exports = function(app) {

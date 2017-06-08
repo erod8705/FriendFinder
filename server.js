@@ -7,15 +7,8 @@ var app = express();
 var bodyParser = require('body-parser');
 //requiring PATH
 var path = require('path');
-//requiring the friends.js file
-var friends = require('friends');
 //setting up our port
 var PORT = process.env.PORT || 8080
-
-// TODO: the code below will need to go in your htmlRoutes.js 
-app.get('/', function (req, res) {
-  res.send('Hello World')
-})
 
 // parse application/x-www-form-urlencoded 
 app.use(bodyParser.urlencoded({ extended: false }));
